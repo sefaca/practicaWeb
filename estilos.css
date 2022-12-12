@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #aaa69d;
+    display: flex;
+    height: 50px;
+    padding: 0 40px;
+    align-items: center;
+}
+
+header img {
+    width: 40px;
+}
+
+.header-name {
+    margin-left: 20px;
+}
+
+.header-icons {
+    display: flex;
+    margin-left: 920px;
+}
+
+.header-icons img {
+    width: 25px;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ff793f;
+    height: 20px;
+}
+
+.nav-bar a{
+    padding: 50px;
+    padding-top: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: red;
+}
+
+.familia-productos{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #201e1c;
+}
+
+.familia-productos img{
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.familia-productos img:hover {
+    filter: opacity(.5);
+    cursor: pointer;
+}
+
+.familia-productos div{
+    background-color: #282623;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.56);
+    width: 75%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+}
+
+.familia-productos h2{
+    letter-spacing: 7px;
+    color: wheat;
+    margin: auto;
+}
+
+.familia-productos p{
+    color: white;
+}
+
+.vitrinas{
+    display: flex;
+}
+
+.dormitorios{
+    display: flex;
+}
+
+.baños{
+    display: flex;
+}
+
+.cocinas{
+    display: flex;
+}
+
+.productos-vendidos {
+    background-color: aqua;
+}
+
+.zona-informativa {
+    background-color: crimson;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ff793f;
+    height: 20px;
+}
+
+.footer a{
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
